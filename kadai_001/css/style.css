@@ -1,0 +1,74 @@
+/* 文字フォント */
+body{
+  font-family: "Noto Sans JP", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* ヘッダー部分の編集 */
+#nav-pc{
+  font-size: 34px;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 300px 50px 300px;
+}
+
+#nav-pc > a{
+  text-decoration: none;
+  color: #000000;
+}
+
+#nav-pc > a:hover{
+  text-decoration: solid;
+  border: #000000 solid 2px;
+}
+
+/* メイン画像 */
+#main-visual{
+  width: 100%;
+}
+
+/* プロフィール */
+.index-h1{
+  text-align: center;
+  font-size: 34px;
+}
+
+#profile > div{
+  display: flex;
+  margin: 100px 300px;
+}
+
+#about{
+  border-radius: 200px;
+}
+
+#sub-profile{
+  margin-left: 60px;
+  margin-top: 40px;
+}
+
+#sub-profile > li{
+  margin-left: 40px;
+  font-size: 18px;
+}
+
+#sub-profile > h2{
+  font-size: 24px;
+}
+
+/* WORK */
+#gallery{
+  display: flex;
+  justify-content: center;
+}
+
+.photo{
+ width: 90%;
+}
+
+footer{
+  text-align: center;
+  margin-top: 100px;
+}
